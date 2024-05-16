@@ -1,0 +1,80 @@
+.root {
+    -fx-base: #FFF5E0; /* Light peach replaces the light grey base */
+    -fx-background: #FFFFFF; /* Keep background white */
+    -fx-control-inner-background: #8DECB4; /* Light green for control backgrounds */
+    -fx-text-base-color: #141E46; /* Dark blue for text */
+    -fx-font-size: 14px;
+}
+
+.button {
+    -fx-background-color: #41B06E; /* Medium green for buttons */
+    -fx-text-fill: #FFFFFF; /* Keep text color white */
+    -fx-background-radius: 20px;
+    -fx-padding: 0.5em 1em;
+    -fx-font-size: 20px;
+}
+
+.button:hover {
+    -fx-background-color: #31964D; /* Darker green for hover */
+}
+
+.text-field {
+    -fx-background-color: #FFF5E0; /* Light peach for text field backgrounds */
+    -fx-text-fill: #141E46; /* Dark blue for text */
+    -fx-font-size: 14px;
+    -fx-background-radius: 10px;
+    -fx-padding: 0.5em;
+    -fx-prompt-text-fill: #939393;
+}
+
+.text-area {
+    -fx-background-color: #FFF5E0; /* Light peach for text area backgrounds */
+    -fx-text-fill: #141E46; /* Dark blue for text */
+    -fx-font-size: 14px;
+    -fx-background-radius: 10px;
+    -fx-padding: 0.5em;
+    -fx-alignment: top-left;
+}
+
+.tab-pane > .tab-header-area > .headers-region > .tab > .tab-container > .tab-label {
+    -fx-background-color: #41B06E; /* Medium green for tabs */
+    -fx-text-fill: #FFFFFF; /* White text */
+    -fx-background-radius: 20px 20px 0 0;
+    -fx-padding: 0.5em 1em;
+    -fx-font-size: 14px;
+}
+
+.tab-pane > .tab-header-area > .headers-region > .tab:selected > .tab-container > .tab-label {
+    -fx-background-color: #31964D; /* Darker green for selected tabs */
+    -fx-background-radius: 20px 20px 0 0;
+}
+
+.tab-pane > .tab-header-area > .headers-region > .tab:hover > .tab-container > .tab-label {
+    -fx-background-color: #31964D; /* Darker green for hover */
+}
+
+.check-box {
+    -fx-background-color: transparent;
+    -fx-text-fill: #141E46; /* Dark blue for text */
+    -fx-font-size: 14px;
+}
+
+.check-box .box {
+    -fx-background-color: #FFF5E0; /* Light peach for checkbox */
+    -fx-border-color: #141E46; /* Dark blue for border */
+}
+
+.root {
+    -fx-background-image: url("wallpaper.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+.alert {
+    -fx-background-color: white;
+}
+
+.alert .header-panel {
+    -fx-background-color: #E0E0E0;
+    -fx-text-fill: black;
+}
